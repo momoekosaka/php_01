@@ -1,0 +1,50 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(241, 137, 210);
+  width: 1000px;
+  height: 60px;
+  background-size: cover;
+  background-image: url(img/images05.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: justify;
+  -webkit-text-stroke-width: thick;
+  /* -webkit-text-emphasis-style: dot; */
+}
+
+button {
+  color: rgb(43, 31, 31);
+  font-size: 50;
+  font-family: initial;
+  font-weight: 800;
+  text-align-last: justify;
+  background-color: rgb(194, 75, 75);
+  box-decoration-break: slice;
+}
+
+#box00 {
+  padding-top: 30px;
+  height: 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#box01,
+#box02,
+#box03 {
+  /* border: 1px solid rgb(255, 230, 0); */
+  height: 200px;
+  width: 200px;
+  box-sizing: 600px;
+  background-image: url(img/03.jpg);
+}
+
+#box10 {
+  padding-top: 150px;
+  height: 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
